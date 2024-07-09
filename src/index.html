@@ -7,10 +7,194 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>CPS</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      />
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
-    <img src="./img/webpack.svg" alt="Webpack Logo" width="200px" />
-    <h3>Welcome to Webpack 4 starter </h3>
+    <nav class="nav">
+      <header class="nav__header">
+        <div class="nav__header-div">
+          <div class="nav__header-content nav__header-content-back"><img src="./img/burger.svg" alt="back"></div>
+          <div class="nav__header-content"><img src="./img/Group.svg" alt="CPS"></div>
+          <div class="nav__header-content"></div>
+          <div class="nav__header-content"><img src="./img/search.svg" alt="search"></div>
+        </div>
+      </header>
+        <div class="nav__main-div">
+          <p class="nav__main-palka"></p>
+          <p class="nav__main-content nav__main-content-fr">Ремонт техники</p>
+          <p class="nav__main-content">Услуги и сервисы</p>
+          <p class="nav__main-content">Корпоративным клиентам</p>
+          <p class="nav__main-content">Продавцам техники</p>
+          <p class="nav__main-content">Партнерам</p>
+          <p class="nav__main-content">Производителям</p>
+          <p class="nav__main-content">Наши сервисные центры</p>
+          <p class="nav__main-content">Контакты</p>
+
+          <ul class="nav__main-ul">
+            <li class="nav__main-li"><img src="./img/tel.svg" alt="tel"></li>
+            <li class="nav__main-li"><img src="./img/chat.svg" alt="chat"></li>
+            <li class="nav__main-li"><img src="./img/profile.svg" alt="contact"></li>
+          </ul>
+          <p class="nav__main-content nav__main-content-mail">mail@cps.com</p>
+          <p class="nav__main-content nav__main-content-tel">8 800 890 8900</p>
+          <p class="nav__main-content nav__main-conten-lang">
+            <span class="nav__main-lang-cont">RU</span>
+            <span class="nav__main-lang-cont">EN</span>
+            <span class="nav__main-lang-cont">CH</span>
+          </p>
+        </div>
+    </nav>
+    <header class="header">
+      <ul class="header__ul">
+        <li class="header__li header__li-burger"><img src="./img/burgermenu.svg" alt="Menu"></li>
+        <li class="header__li"><img src="./img/Group.svg" alt="CPS"></li>
+        <li class="header__li"><span class="header__li_palka"></span></li>
+        <li class="header__li"><img src="./img/repair.svg" alt="Rapair"></li>
+        <li class="header__li"><img src="./img/checkstatus.svg" alt="Checkstatus"></li>
+      </ul>
+    </header>
+    <main class="main">
+      <section class="sectiona">
+        <div class="sectiona__flex">
+          <div class="sectiona__palka"></div><div class="sectiona__h">Услуги и сервисы</div>
+        </div>
+        <div class="sectiona__div">
+          <p class="sectiona__p">Ремонтируемые бренды</p>
+          <p class="sectiona__p">Дополнительные услуги</p>
+          <p class="sectiona__p">Цена за услуги</p>
+          <p class="sectiona__p">Адреса сервисных центров</p>
+          <p class="sectiona__p">Специальные цены</p>
+        </div>
+        <div class="sectiona__teni"></div>
+        <div class="sectiona__text">
+          <p class="sectiona__text-p">Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
+              Только у нас вы можете отремонтировать свой ноутбук Dell с официальной 
+              гарантией производителя.</p>
+          <p class="sectiona__text-p-hid"><span class="sectiona__text-p-plan">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span>,
+              что подтверждает большое количество постоянных клиентов. Мы гордимся тем,
+              что к нам обращаются по рекомендациям и, в свою очередь, советуют нас
+              родным и близким.</p>
+              <div class="sectiona__text-div"><img class="sectiona__text-expand" src="./img/expand.svg" alt="expand"><span class="sectiona__text-dalee">Читать далее</span></div>
+        </div>
+        <div class="sectiona__img"></div>
+      </section>
+      <section class="sectionb">
+        <p class="sectionb__p">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="swiper-slide-brand" src="./img/lenovo.svg" alt="Lenovo"><img class="swiper-slide-go" src="./img/go.svg" alt="go"></div>
+              <div class="swiper-slide"><img class="swiper-slide-brand" src="./img/acer.svg" alt="Acer"><img class="swiper-slide-go" src="./img/go.svg" alt="go"></div>
+              <div class="swiper-slide"><img class="swiper-slide-brand" src="./img/apple.svg" alt="Apple"><img class="swiper-slide-go" src="./img/go.svg" alt="go"></div>
+              <div class="swiper-slide"><img class="swiper-slide-brand" src="./img/bosch.svg" alt="Bosch"><img class="swiper-slide-go" src="./img/go.svg" alt="go"></div>
+              <div class="swiper-slide"><img class="swiper-slide-brand" src="./img/hp.svg" alt="HP"><img class="swiper-slide-go" src="./img/go.svg" alt="go"></div>
+              <div class="swiper-slide"><img class="swiper-slide-brand" src="./img/samsung.svg" alt="Samsung"><img class="swiper-slide-go" src="./img/go.svg" alt="go"></div>
+              <div class="swiper-slide"><img class="swiper-slide-brand" src="./img/sony.svg" alt="Sony"><img class="swiper-slide-go" src="./img/go.svg" alt="go"></div>
+              <div class="swiper-slide"><img class="swiper-slide-brand" src="./img/view.svg" alt="View"><img class="swiper-slide-go" src="./img/go.svg" alt="go"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="sectionb__teni"></div>
+      </section>
+      <section class="sectionc">
+        <p class="sectionc__p">РЕМОНТ РАЗЛИЧНЫХ ВИДОВ</p>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <p class="swiper-slide-p">Ремонт ноутбуков</p>
+              <img class="swiper-slide-go" src="./img/go.svg" alt="go">
+            </div>
+            <div class="swiper-slide">
+              <p class="swiper-slide-p">Ремонт планшетов</p>
+              <img class="swiper-slide-go" src="./img/go.svg" alt="go">
+            </div>
+            <div class="swiper-slide">
+              <p class="swiper-slide-p">Ремонт ПК</p>
+              <img class="swiper-slide-go" src="./img/go.svg" alt="go">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="sectionc__teni"></div>
+      </section>
+      <section class="sectiond">
+        <p class="sectiond__p">ЦЕНА НА УСЛУГИ</p>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swipre-slide-div">
+                <p class="swiper-slide-p">Ремонтные услуги</p>
+                <p class="swiper-slide-pp">Тестирование с выдачей технического заключения</p>
+                <p class="swiper-slide-p">Цена</p>
+                <p class="swiper-slide-pp">Бесплатно</p>
+                <p class="swiper-slide-p">Срок</p>
+                <p class="swiper-slide-pp">30-120 мин</p>
+                <img class="swiper-slide-img" src="./img/buy.svg" alt="buy">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swipre-slide-div">
+                <p class="swiper-slide-p">Ремонтные услуги</p>
+                <p class="swiper-slide-pp">Замена дисплея</p>
+                <p class="swiper-slide-p">Цена</p>
+                <p class="swiper-slide-pp">1000₽</p>
+                <p class="swiper-slide-p">Срок</p>
+                <p class="swiper-slide-pp">30-120 мин</p>
+                <img class="swiper-slide-img" src="./img/buy.svg" alt="buy">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swipre-slide-div">
+                <p class="swiper-slide-p">Ремонтные услуги</p>
+                <p class="swiper-slide-pp">Замена полифонического динамика</p>
+                <p class="swiper-slide-p">Цена</p>
+                <p class="swiper-slide-pp">1000₽</p>
+                <p class="swiper-slide-p">Срок</p>
+                <p class="swiper-slide-pp">30-120 мин</p>
+                <img class="swiper-slide-img" src="./img/buy.svg" alt="buy">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swipre-slide-div">
+                <p class="swiper-slide-p">Ремонтные услуги</p>
+                <p class="swiper-slide-pp">Тестирование с выдачей технического заключения</p>
+                <p class="swiper-slide-p">Цена</p>
+                <p class="swiper-slide-pp">1000₽</p>
+                <p class="swiper-slide-p">Срок</p>
+                <p class="swiper-slide-pp">30-120 мин</p>
+                <img class="swiper-slide-img" src="./img/buy.svg" alt="buy">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swipre-slide-div">
+                <p class="swiper-slide-p">Ремонтные услуги</p>
+                <p class="swiper-slide-pp">Замена программного обеспечения</p>
+                <p class="swiper-slide-p">Цена</p>
+                <p class="swiper-slide-pp">1000₽</p>
+                <p class="swiper-slide-p">Срок</p>
+                <p class="swiper-slide-pp">30-120 мин</p>
+                <img class="swiper-slide-img" src="./img/buy.svg" alt="buy">
+              </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </section>
+      <section class="sectionf">
+        <p class="sectionf__p">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу.
+           Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
+        <p class="sectionf__pp sectionf__p">Получить коммерческое предложение</p>
+        <img class="sectionf__img" src="./img/more.svg" alt="more">
+      </section>
+      <footer class="footer">
+        <p class="footer__p">© 2019 CPS<br>
+          Разработано командой Apesong </p>
+        <p class="footer__p">Политика конфиденциальности</p>
+        <p class="footer__p">Информация, размещенная на данной странице, не является публичной офертой</p>
+      </footer>
+    </main>
   </body>
 </html>

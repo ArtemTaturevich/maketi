@@ -1,0 +1,78 @@
+.sectiona {
+    border-bottom: 1px solid #D9FFF5;
+
+    .sectiona__flex {
+        display: flex;
+
+        .sectiona__palka {
+            height: 40px;
+            border-right: 4px solid #41F6D7;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-right: 2px;
+        }
+    
+        .sectiona__h {
+            font-family: TTLakes-Bold, sans-serif;
+            font-size: 28px;
+            padding-left: 15px;
+            margin-top: 20px;
+        }
+    }
+
+    .sectiona__div {
+        display: flex;
+        white-space: nowrap;
+        padding-left: 16px;
+        overflow: auto;
+
+        // #F8F8F8
+        .sectiona__p {
+            color: #7E7E82;
+            padding: 8px 12px;
+        }
+
+        .sectiona__p:first-child {
+            border: 2px solid #B8FFEC;
+            border-radius: 4px;
+            background-color: #ffffff;
+        }
+    }
+
+    .sectiona__teni {
+        position: absolute;
+        left: 92.5%;
+        width: 24px;
+        height: 40px;
+        top: 165px;
+        background: linear-gradient(270.00deg, rgb(248, 248, 248) 16.836%,rgba(248, 248, 248, 0) 100%);
+    }
+
+    .sectiona__text {
+        font-size: 14px;
+        margin-left: 5%;
+        margin-right: 5%;
+
+        .sectiona__text-div {
+            display: flex;
+        }
+
+        .sectiona__text-p-hid {
+            display:none;
+        }
+
+        .sectiona__text-dalee {
+            font-size: 16px;
+            font-family: TTLakes-Medium;
+            margin-left: 10px;
+        }
+    }
+
+    .sectiona__img {
+        margin-top: 10px;
+        width: 100%;
+        height: 200px;
+        background-image: url('../img/_MG_3223.png');
+        background-repeat: no-repeat;
+    }
+}
