@@ -33,14 +33,82 @@
                 margin-right: 10px
             }
         }
+
+        .swiper-pocaz {
+            display: none;
+        }
     }
     .sectionb__teni {
         position: absolute;
         width: 24px;
         height: 81px;
         z-index: 1;
-        top: 680px;
-        left: 300px;
+        top: 93%;
+        right: 0;
         background: linear-gradient(270.00deg, rgb(248, 248, 248) 16.836%,rgba(248, 248, 248, 0) 100%);
     }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+
+    .sectionb__teni {
+        display: none;
+    }
+
+    .swiper {
+        height: 100% !important;
+    }
+
+    .swiper-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .swiper-slide {
+        margin-left: 0;
+    }
+
+    .swiper-pocaz {
+        display: block !important;
+        margin-top: 10px;
+    }
+
+    .swiper-slide-pl {
+        display: none;
+    }
+
+    .swiper-slide-pk {
+        display: none;
+    }
+}
+
+@media (min-width: 1440px) {
+    .sectionb__teni {
+        display: none;
+    }
+
+    .swiper {
+        height: 80% !important;
+    }
+
+    .swiper-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .swiper-slide {
+        margin-left: 0;
+    }
+
+    .swiper-pocaz {
+        display: block !important;
+        margin-top: 10px;
+    }
+
+    .swiper-slide-pk {
+        display: none ;
+    }
+
 }

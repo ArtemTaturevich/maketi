@@ -1,0 +1,64 @@
+.nava {
+    position: absolute;
+    height: 100%;
+    width: 320px;
+    background-color: #ffffff;
+    z-index: 4;
+    display: none;
+    right: 0%;
+    transition: 1s ease; 
+    border-left: 1px solid D9FFF5;
+
+    .nava__header {
+        margin: 10px;
+        margin-top: 20px;
+    }
+
+    .nava__main {
+
+
+        .nava__flex {
+            display: flex;
+            margin-bottom: 10px;
+    
+            .nava__palka {
+                height: 40px;
+                border-right: 4px solid #41F6D7;
+                border-radius: 5px;
+                margin-top: 20px;
+                margin-right: 2px;
+            }
+        
+            .nava__h {
+                font-family: TTLakes-Bold, sans-serif;
+                font-size: 24px;
+                padding-left: 15px;
+                margin-top: 20px;
+            }
+        }
+
+        .nava__input {
+            width: 100%;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 15px;
+            border: 1px solid rgb(234, 234, 234);
+            border-radius: 8px; 
+            margin-top: 10px;
+        }
+
+        .nava__input:nth-child(5n) {
+            height: 118px;
+        }
+
+        .nava__text {
+            margin-left: 20px;
+            font-size: 14px;
+            margin-top: 20px;
+
+            .nava__span {
+                color: rgb(255, 62, 121);
+            }
+        }
+    }
+}

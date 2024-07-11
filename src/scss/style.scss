@@ -9,22 +9,27 @@
 @import './sectiond.scss';
 @import './sectionf.scss';
 @import './footer.scss';
+@import './nava.scss';
+@import './navab.scss';
 
 
-$bgColor: #24292e;
-$text: #fff;
+$back: #f8f8f8;
+$font_regular: TTLakes-Regular, sans-serif;
 
 body {
   padding: 0;
   margin: 0;
-  font-family: TTLakes-Regular, sans-serif;
-  width: 320px;
+  font-family: $font_regular;
+  width: 100%;
 }
 
 .main {
-  background-color: #F8F8F8;
+  background-color: $back;
 }
 
-.hidden {
-  display: none;
+@media (min-width: 1440px) {
+
+  body {
+    display: flex;
+  }
 }

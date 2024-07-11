@@ -40,7 +40,41 @@
         height: 160px;
         z-index: 1;
         top: 20px;
-        left: 300px;
+        right: 0;
         background: linear-gradient(270.00deg, rgb(248, 248, 248) 16.836%,rgba(248, 248, 248, 0) 100%);
+    }
+    
+    .swiper-pocazz {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) { 
+    .sectionc__teni {
+        display: none;
+    }
+
+    .swiper-slide-pla {
+        display: none;
+    }
+
+    .swiper-pocazz {
+        margin-top: 10px;
+        display: block !important;
+    }
+}
+
+@media (min-width: 1440px) {
+    .sectionc__teni {
+        display: none;
+    }
+
+    .swiper-slide-pka {
+        display: none;
+    }
+
+    .swiper-pocazz {
+        display: block !important;
+        margin-top: 10px;
     }
 }

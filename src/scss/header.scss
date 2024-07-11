@@ -1,6 +1,7 @@
 .header {
     height: 88px;
     border-bottom: 1px solid #D9FFF5;
+    width: 100%;
 
     .header__ul {
         width: 100%;
@@ -13,7 +14,7 @@
         align-items: center;
 
         .header__li {
-            margin-left: 5%;
+            margin-left: 20px;
         }
     
         .header__li:first-child {
@@ -24,5 +25,32 @@
             font-size: 32px;
             border: 1px solid #EAEAEA;
         }
+
+        .header__li-pl {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .header {
+
+        .header__li-pl {
+            display: block !important;
+        }
+
+        .header__li-pl-tel {
+            margin-left: 34% !important;
+        }
+
+        .sectiona__text-div {
+            margin-top: 30px !important;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .header {
+        display: none;
     }
 }

@@ -13,9 +13,16 @@
         margin-top: 0;
     }
 
-    .sectionf__img {
-        position: absolute;
-        left: 120px;
-        top: 1590px;
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .sectionf__p  {
+        width: 420px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .sectionf__p  {
+        width: 420px;
     }
 }

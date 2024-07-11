@@ -6,4 +6,17 @@
         font-size: 14px;
         color:#7E7E82;
     }
+
+    @media (min-width: 768px) and (max-width: 1440px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr !important;
+        margin-right: 20px;
+
+    }
+
+    @media (min-width: 1440px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr !important;
+        margin-right: 20px;
+    }
 }
